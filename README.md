@@ -79,6 +79,7 @@ Our final network topology consists of a Jump Box VM, 3 Web Servers and an ELK-V
 
 
 
+
 ### Access Policies
 
 
@@ -93,13 +94,15 @@ Machines within the network can only be accessed by the Jump Box.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name        | Publicly Accessible | Allowed IP Addresses                                                                                    |
-|-------------|---------------------|---------------------------------------------------------------------------------------------------------|
-| Jump Box VM | Yes                 | My host machine: IP 175.32.150.11  Web-1: 10.1.0.5  Web-2: 10.1.0.6  Web-3: 10.1.0.7  ELK-VM: 10.0.0.4  |
-| Web-1       | No                  | Jump Box VM: 10.1.0.4 Load Balancer: 13.72.251.150                                                      |
-| Web-2       | No                  | Jump Box VM: 10.1.0.4 Load Balancer: 13.72.251.150                                                      |
-| Web-3       | No                  | Jump Box VM: 10.1.0.4 Load Balancer: 13.72.251.150                                                      |
-| ELK-VM      | Yes                 | My host machine: 175.32.150.11 Web-1: 10.1.0.5  Web-2: 10.1.0.6  Web-3: 10.1.0.7  Jump Box VM: 10.1.0.4 |
+| Name        | Publicly Accessible | Allowed IP Addresses                                                                                                |
+|-------------|---------------------|---------------------------------------------------------------------------------------------------------------------|
+| Jump Box VM | Yes                 | My host machine: IP 175.32.150.11 <br>Web-1: 10.1.0.5 <br>Web-2: 10.1.0.6 <br>Web-3: 10.1.0.7 <br>ELK-VM: 10.0.0.4  |
+| Web-1       | No                  | Jump Box VM: 10.1.0.4<br>Load Balancer: 13.72.251.150                                                               |
+| Web-2       | No                  | Jump Box VM: 10.1.0.4<br>Load Balancer: 13.72.251.150                                                               |
+| Web-3       | No                  | Jump Box VM: 10.1.0.4<br>Load Balancer: 13.72.251.150                                                               |
+| ELK-VM      | Yes                 | My host machine: 175.32.150.11<br>Web-1: 10.1.0.5 <br>Web-2: 10.1.0.6 <br>Web-3: 10.1.0.7 <br>Jump Box VM: 10.1.0.4 |
+
+
 
 
 ### Elk Configuration
