@@ -62,9 +62,9 @@ This is achieved using ELK Stack, a powerful, open-source tool used to store, se
 
 Due to the significant amount of information potentially contained in the Elasticsearch log database, a tool known as ‘Beats’ is now available as part of the ELK Stack suite to allow collection of specific data and information.  There are 8 official Beats in total, two of which are used in this deployment – Filebeat and Metricbeat (see also ‘Target Machines & Beats’ below).
 
-- Filebeat is used to monitor specific log files or locations, as specified by the user.  Filebeat collates and organises the requested data, which is then forwarded to Elasticsearch or Logstash for indexing.  Filebeat watches for changes by monitoring the file system and specific logs.  As it is specific to a particular machine, filebeat must be installed on each individual VM/server to be monitored.
+- Filebeat: Filebeat is used to monitor specific log files or locations, as specified by the user.  Filebeat collates and organises the requested data, which is then forwarded to Elasticsearch or Logstash for indexing.  Filebeat watches for changes by monitoring the file system and specific logs.  As it is specific to a particular machine, filebeat must be installed on each individual VM/server to be monitored.
 
-- Metricbeat collects and records the metrics of a machine from the operating system and services running on the server.  These metrics allow the user to assess such things as the health of a network, as well as monitoring for signs of suspicious activity, for example CPU usage and uptime.  As with filebeat, metricbeat is specific to a particular machine and must be installed on each individual VM/server which is being monitored.
+- Metricbeat: Metricbeat collects and records the metrics of a machine from the operating system and services running on the server.  These metrics allow the user to assess such things as the health of a network, as well as monitoring for signs of suspicious activity, for example CPU usage and uptime.  As with filebeat, metricbeat is specific to a particular machine and must be installed on each individual VM/server which is being monitored.
 
 
 Our final network topology consists of a Jump Box VM, 3 Web Servers and an ELK-VM.  The configuration details of each machine may be found below. 
@@ -143,12 +143,12 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 
-- Filebeat is used to monitor specific log files or locations, as specified by the user.   Filebeat collates and organises this data, which is then forwarded to Elasticsearch or Logstash for indexing.  Filebeat watches for changes in data by monitoring the file system and specific logs – see sample of system log activity below.  As it is specific to a particular machine, Filebeat must be installed on each individual VM/server to be monitored.
+- Filebeat: Filebeat is used to monitor specific log files or locations, as specified by the user.   Filebeat collates and organises this data, which is then forwarded to Elasticsearch or Logstash for indexing.  Filebeat watches for changes in data by monitoring the file system and specific logs – see sample of system log activity below.  As it is specific to a particular machine, Filebeat must be installed on each individual VM/server to be monitored.
 
 <img width="1355" alt="filebeat_image" src="https://user-images.githubusercontent.com/80297522/110933249-a1e31b00-8380-11eb-891e-3b879a865bf9.png">
 
 
-- Metricbeat collects and records the metrics of a machine from the operating system and services running on the server, for example CPU and memory usage and container information (see below). These metrics allow the user to assess such things as the health of a network, as well as monitoring for signs of suspicious activity.  As with Filebeat, Metricbeat is specific to a particular machine and must be installed on each individual VM/server which is being monitored.
+- Metricbeat: Metricbeat collects and records the metrics of a machine from the operating system and services running on the server, for example CPU and memory usage and container information (see below). These metrics allow the user to assess such things as the health of a network, as well as monitoring for signs of suspicious activity.  As with Filebeat, Metricbeat is specific to a particular machine and must be installed on each individual VM/server which is being monitored.
 
 
 
