@@ -190,7 +190,8 @@ See: [Bonus question.pdf](https://github.com/MadelineXCyber/Unit-13-Automated-EL
 
 ### Additional Material
 
-DIAGRAMS
+
+### DIAGRAMS
 
 Additional diagrams featuring each of the networks in Azure can be found by following these links:
 
