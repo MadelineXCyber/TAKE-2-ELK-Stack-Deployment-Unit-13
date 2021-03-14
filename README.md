@@ -36,7 +36,7 @@ The playbooks used for this deployment are as follows:
 - Metricbeat configuration file
 - Metricbeat playbook
 
-Copies of all playbooks above are available by following this link: https://github.com/MadelineXCyber/Unit-13-Automated-ELK-Stack-Deployment/tree/main/Ansible
+Copies of all playbooks above are available by following this link: https://github.com/MadelineXCyber/TAKE-2-ELK-Stack-Deployment-Unit-13/tree/main/Ansible
 
 
 ### Description of the Topology
