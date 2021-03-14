@@ -230,45 +230,11 @@ https://github.com/MadelineXCyber/TAKE-2-ELK-Stack-Deployment-Unit-13/blob/main/
 
 https://github.com/MadelineXCyber/TAKE-2-ELK-Stack-Deployment-Unit-13/blob/main/Linux/LINUX%20COMMANDS:%20WK%204%20Linux%20Systems%20Admin
 
-Command to inspect permissions: ls -l shadow
-
-Command to set permissions (if needed): sudo chmod 600 shadow
-
-Command to inspect permissions: ls -l gshadow
-
-Command to set permissions (if needed): sudo chmod 600 gshadow
-
-Command to inspect permissions: ls -l group
-
-Command to set permissions (if needed): sudo chmod 644 group
-
-Command to inspect permissions: ls -l passwd
-
-Command to set permissions (if needed): sudo chmod 644 passwd
-
-Command to add each user account (include all five users): sudo adduser sam
-
-Command to add admin to the sudo group: sudo usermod -G sudo admin 
-
-Command to add group: sudo addgroup engineers
-
-Command to add users to engineers group (include all four users):
-sudo usermod -aG engineers sam
-sudo usermod -G engineers joe
-
-Command to create the shared folder: sudo mkdir /home/engineers
-
-Command to change ownership of engineer's shared folder to engineer group: sudo chown sysadmin:engineers /home/engineers
-
-Command to install Lynis: sudo apt install lynis
-
-Command to see documentation and instructions: man lynis; sudo lynis show help
-
-Command to run an audit: sudo lynis audit system
-
 
 
 ### Linux Commands: WK 5 Archiving and Logging Data
+
+https://github.com/MadelineXCyber/TAKE-2-ELK-Stack-Deployment-Unit-13/blob/main/Linux/LINUX%20COMMANDS:%20WK%205%20Archiving%20and%20Loggi
 
 Command to extract the TarDocs.tar archive to the current directory:  tar xvvf TarDocs.tar
 
