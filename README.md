@@ -222,6 +222,8 @@ Additional diagrams featuring each of the networks in Azure can be found by foll
 
 ### Linux Commands: WK 3 Lucky Duck
 
+https://github.com/MadelineXCyber/TAKE-2-ELK-Stack-Deployment-Unit-13/blob/main/Linux/LINUX%20COMMANDS:%20WK%203%20Lucky%20Duck
+
 Roulette_dealer_finder_by_time_sh
 #!/bin/bash
 grep 'AM\|PM' *_Dealer_schedule > roulette.dealer1
