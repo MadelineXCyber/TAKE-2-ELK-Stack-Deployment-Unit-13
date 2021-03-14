@@ -69,13 +69,13 @@ Due to the significant amount of information potentially contained in the Elasti
 
 Our final network topology consists of a Jump Box VM, 3 Web Servers and an ELK-VM.  The configuration details of each machine may be found below. 
 
-| Name        | Function                                   | IP Address                                        | Operating System     |
-|-------------|--------------------------------------------|---------------------------------------------------|----------------------|
-| Jump Box VM | Gateway, intelligence Ansible control node | Public: 52.187.237.72 Private: 10.1.0.4           | Linux (Ubuntu 18.04) |
-| Web-1       | Internal web server DVWA container         | Public: Load balancer public IP Private: 10.1.0.5 | Linux (Ubuntu 18.04) |
-| Web-2       | Internal web server DVWA container         | Public: Load balancer public IP Private: 10.1.0.6 | Linux (Ubuntu 18.04) |
-| Web-3       | Internal web server DVWA container         | Public: Load balancer public IP Private: 10.1.0.7 | Linux (Ubuntu 18.04) |
-| ELK-VM      | Log server ELK Stack container             | Public: 40.87.108.196 Private: 10.0.0.4           | Linux (Ubuntu 18.04) |
+| Name        | Function                                          | IP Address                                            | Operating System     |
+|-------------|---------------------------------------------------|-------------------------------------------------------|----------------------|
+| Jump Box VM | Gateway <br>Intelligence <br>Ansible control node | Public: 52.187.237.72 <br>Private: 10.1.0.4           | Linux (Ubuntu 18.04) |
+| Web-1       | Internal web server <br>DVWA container            | Public: Load balancer public IP <br>Private: 10.1.0.5 | Linux (Ubuntu 18.04) |
+| Web-2       | Internal web server <br>DVWA container            | Public: Load balancer public IP <br>Private: 10.1.0.6 | Linux (Ubuntu 18.04) |
+| Web-3       | Internal web server <br>DVWA container            | Public: Load balancer public IP <br>Private: 10.1.0.7 | Linux (Ubuntu 18.04) |
+| ELK-VM      | Log server <br>ELK Stack container                | Public: 40.87.108.196 <br>Private: 10.0.0.4           | Linux (Ubuntu 18.04) |
 
 
 
