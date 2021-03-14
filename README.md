@@ -216,7 +216,7 @@ Additional diagrams featuring each of the networks in Azure can be found by foll
 
 ### Linux Commands: All commands used to create the ELK Stack deployment
 
-[Linux commands - ELK Stack deployment.pdf](https://github.com/MadelineXCyber/Unit-13-Automated-ELK-Stack-Deployment/files/6129713/Linux.commands.-.ELK.Stack.deployment.pdf)
+[Linux commands - ELK Stack deployment.pdf](https://github.com/MadelineXCyber/TAKE-2-ELK-Stack-Deployment-Unit-13/files/6129713/Linux.commands.-.ELK.Stack.deployment.pdf)
 
 
 
