@@ -183,8 +183,7 @@ Take a screenshot of the result.
 As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
 
-See: [Bonus question.pdf](https://github.com/MadelineXCyber/Unit-13-Automated-ELK-Stack-Deployment/files/6129666/Bonus.question.pdf)
-
+See: https://github.com/MadelineXCyber/TAKE-2-ELK-Stack-Deployment-Unit-13/blob/main/Images/Bonus%20question%20-%20Unit%2013%20ELK%20Stack%20Deployment.pdf
 
 
 
