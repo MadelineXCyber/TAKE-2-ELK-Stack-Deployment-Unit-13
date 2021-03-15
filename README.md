@@ -27,16 +27,12 @@ All files have been tested and used to generate a live ELK deployment on Azure. 
 
 The playbooks used for this deployment are as follows:
 
-- Ansible configuration file
-- Ansible hosts file
 - Configure ELK VM with docker
 - Configure Web VM with Docker
-- Filebeat configuration file
 - FIlebeat playbook
-- Metricbeat configuration file
 - Metricbeat playbook
 
-Copies of all playbooks above are available by following this link: https://github.com/MadelineXCyber/TAKE-2-ELK-Stack-Deployment-Unit-13/tree/main/Ansible
+Copies of all configuration files and playbooks used in this deployment are available in the Ansible folder: https://github.com/MadelineXCyber/TAKE-2-ELK-Stack-Deployment-Unit-13/tree/main/Ansible
 
 
 ### Description of the Topology
